@@ -29,10 +29,13 @@
     </style>
   </head>
   <body class="font_1">
-    <nav class="flex w-11/12 mx-auto my-4 justify-around items-center border-b-2 border-red-600 py-4"> 
+    <nav class=""> 
+        
+        <div class=" bg-white space-y-4  sm:flex md:flex lg:flex mx-auto my-4 justify-around items-center py-4  " >
+            
         <!-- logo -->
        <div class=" flex-col justify-center items-center gap-2">
-        <div class="flex justify-center">
+        <div class="sm:flex sm:justify-center">
             <img class="w-10" src="./bangladesh.png" alt="">
 
         </div>
@@ -58,23 +61,23 @@
        <div>
             <button class="btn">Sort</button>
        </div>
+       </div>
+
+       <hr class="h-px   bg-gradient-to-r from-fuchsia-500 to-cyan-500 rounded-lg border-0">
     </nav>
 
     <!-- category section -->
     <section class="font_1">
         <div class="w-11/12 mx-auto flex justify-center items-center my-2" id="category_section">
-         
+            <!-- here categories are appending -->
         </div>
     </section>
 
     <main>
         <!-- video section -->
         <section class="font_1">
-                <div class="w-11/12 mx-auto grid grid-cols-4 justify-center items-center my-6 space-y-4 space-x-4" id="video_section">
-                   
-                   
-                
-
+                <div class="w-11/12 mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center items-center my-6 space-y-10 space-x-4" id="video_section">
+                    <!-- here videos are appending from js file -->
                 </div>
         </section>
     </main>
